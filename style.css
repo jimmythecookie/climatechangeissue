@@ -1,0 +1,117 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: lightyellow;
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+	color: green;
+	width: 100%;
+	height: 100%;
+}
+.menu{
+	background-color: skyblue;
+	padding: 10px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	font-size: 18pt;
+	z-index: 1000; /*according to w3schools this basically organizes my entire  line..?*/
+}
+
+.menuLink {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
+	margin-right: 10px;
+	padding: 10px; 
+
+
+}
+.menuLink:hover{
+	background-color: lightsalmon;
+	font-weight: bolder;
+}
+
+	}
+
+a:active {
+  color: lightgoldenrodyellow; /* Color when link is clicked */
+}
+
+a:hover {
+	color: lightgoldenrodyellow; /*hovering over */
+}
+
+
+.home_container{
+	display: block;
+	align-items: center;
+	margin-top: 50px;
+	padding-bottom: 50px;
+
+}
+
+.global_warming {
+	max-width: 100%;
+	height: auto;
+
+}
+
+.image_container {
+padding-top: 35px;
+text-align: center;
+margin: 20px;
+}
+
+
+.header {
+	background-color:skyblue;
+	color:white;
+	text-align: center;
+	padding: 10px;
+	font size: 24pt;
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+	bottom: 0;
+}
+figcaption {
+	color:black;
+	margin-top: 5px;
+	font-style: italic;
+}
+.text_container {
+	padding: 20px;
+	font-size:22px;
+}
+.source{
+	font-style: italic; /*font sizes and styles!*/
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+
+
+.affect_info{
+	margin-bottom: 20px;
+}
+
+.affect_info_impacts > p {_ /*had to search up w3schools to figure out how to list/indent, etc// my question is why would >p make an indent here? */
+margin-top: 10px;
+margin-bottom: 30px;
+}
+
+
+
+.list li{
+  padding-left: 5px; /* Increase this to accommodate the width of your icons */
+  padding-bottom: 10px; /*putting spaces in my words because the list doesnt get big enough..? not 100%sure how this works but experimenting atm*/
+  margin-left: 30px;
+}
